@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_twenty">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/padding_20"
+            android:text="@string/userreg_header"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/username_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_20"
+
+            android:text="@string/username_text" />
+
+        <EditText
+            android:id="@+id/username_edit"
+            android:layout_width="@dimen/width_300"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/password_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_twenty"
+            android:text="@string/password_text" />
+
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_width="@dimen/width_300"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/fullname_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_twenty"
+            android:text="@string/fullname_text" />
+
+        <EditText
+            android:id="@+id/fullname_edit"
+            android:layout_width="@dimen/width_300"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_twenty"
+            android:text="Enter the Email" />
+
+        <EditText
+            android:id="@+id/email_edit"
+            android:layout_width="@dimen/width_300"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/mobile_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_20"
+            android:text="@string/mobile_text" />
+
+        <EditText
+            android:id="@+id/mobile_edit"
+            android:layout_width="@dimen/width_300"
+            android:layout_height="wrap_content"
+            android:inputType="phone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/padding_forty">
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/register_button" />
+
+            <Button
+                android:id="@+id/userlistButton"
+
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="@string/userlist_button" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

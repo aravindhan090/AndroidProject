@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/padding_twenty">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/padding_ten"
+            android:paddingTop="@dimen/padding_20"
+            android:text="@string/detailpage_header"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/username_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_five"
+            android:paddingLeft="@dimen/padding_ten"
+            android:text="@string/usernmae_displays" />
+
+        <TextView
+            android:id="@+id/fullname_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_five"
+            android:paddingLeft="@dimen/padding_ten"
+            android:text="@string/fullname_display" />
+
+        <TextView
+            android:id="@+id/email_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_five"
+            android:paddingLeft="@dimen/padding_ten"
+            android:text="@string/email_display" />
+
+        <TextView
+            android:id="@+id/mobile_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_five"
+            android:paddingLeft="@dimen/padding_ten"
+            android:text="@string/fullname_display" />
+
+        <Button
+            android:id="@+id/details_update_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_button" />
+    </LinearLayout>
+</LinearLayout>

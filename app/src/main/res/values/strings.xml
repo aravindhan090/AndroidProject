@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ListApp</string>
+    <string name="userreg_header">Registeration Form</string>
+    <string name="username_text">Enter the Username</string>
+    <string name="password_text">Enter The Password</string>
+    <string name="fullname_text">Enter the Fullname</string>
+    <string name="mobile_text">Enter the Mobile</string>
+    <string name="register_button">Click For Register</string>
+    <string name="userlist_button">Click For User List</string>
+    <string name="title_activity_user_details">UserDetails</string>
+    <string name="userdetails_header">USER DETAILS</string>
+    <string name="usernmae_displays">User name</string>
+    <string name="fullname_display">Full Name</string>
+    <string name="email_display">EMail</string>
+    <string name="detailpage_header">User Details</string>
+    <string name="list_header">USER LIST</string>
+    <string name="update_button">Update Details</string>
+    <string name="update_header">Update Details</string>
+    <string name="exit_app_text">Are you sure you want to exit?</string>
+    <string name="exit_text">Exit</string>
+    <string name="yes_text">Yes</string>
+    <string name="no_text">No</string>
+    <string name="username_empty_text">Username field cannot be empty</string>
+    <string name="password_empty_text">Password field cannot be empty</string>
+    <string name="fullname_empty_text">FullName field cannot be empty</string>
+    <string name="email_empty_text">Email field cannot be empty</string>
+    <string name="mobile_empty_text">Mobile field cannot be empty</string>
+    <string name="invalid_email_text">Invalid Email Address.</string>
+    <string name="username_exist_text">Username already exits, Please register with different Username</string>
+    <string name="add_newuser_text">Add New User</string>
+    <string name="nousers_text">There are no users stored. Please Add</string>
+    <string name="update_details_header">Update User Details</string>
+
+</resources>
